@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS -->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
         <link href="css/style.css" rel="stylesheet">
     </head>
 
@@ -28,26 +28,12 @@
 
         <div class="top-img">
             <div class="back">
-                <ul class="carousel-area">
-                    <li class="carousel-list"><img class="carousel-img" src="images/shop1.jpg" alt="外観"></li>
-                    <li class="carousel-list"><img class="carousel-img" src="images/pistachio.jpg" alt="ピスタチオ"></li>
-                    <li class="carousel-list"><img class="carousel-img" src="images/strawberry.jpg" alt="ストロベリー"></li>
+                <ul class="slider">
+                    <li><img src="images/shop1.jpg" alt="外観"></li>
+                    <li><img src="images/pistachio.jpg" alt="ピスタチオ"></li>
+                    <li><img src="images/strawberry.jpg" alt="ストロベリー"></li>
                 </ul>
-                <div class="pagination">
-                    <span class="pagination-circle target"></span>
-                    <span class="pagination-circle"></span>
-                    <span class="pagination-circle"></span>
-                </div>
             </div>
-  
-            <div class="arow-wrap">
-                <div class="arrow-left">
-                  <button class="arrow-btn js-btn-back" type="button"></button>
-                </div>
-                <div class="arrow-right">
-                  <button class="arrow-btn js-btn-next" type="button"></button>
-                </div>
-            </div> 
         </div>
 
 
@@ -104,7 +90,11 @@
         <h2><span>About</span></h2>
             <div class="about">
                 <div class="back">
-                    <img id="about-img" src="images/fruit.jpg">
+                    <ul class="slider">
+                        <li><img src="images/fruit.jpg" alt="フルーツ"></li>
+                        <li><img src="images/gelato_2.jpg" alt="ジェラート"></li>
+                        <li><img src="images/milk.jpg" alt="ミルク"></li>
+                    </ul>    
                 </div>
                 <div class="about_text">
                     <p>本場イタリア仕込みの製造方法で日本人に合う味を追求。<br><br>
@@ -136,6 +126,7 @@
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>

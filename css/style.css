@@ -72,101 +72,58 @@ img {
     justify-content: center;
     background-color: #E4F4F6;
 }
-.carousel-area {
-    padding-top: 25px;
-    /* width: 3840px;*/
-    height: 100%;
-    border-radius: 8px;
-    display: flex;
-    position: absolute;
+.slider {
+    width: 94%;
+    margin: 0 auto;
 }
-.carousel-list {
-    width: 1280px;
+.slider img {
+    width: auto;
     height: 730px;
-    margin-left: 300px;
+    padding-top: 20px;
+    margin: 0 auto;
 }
-.carousel-img {
-    width: 100%;
-    height: 100%;
+.slider slic-slide {
+    margin: 0 10px;
 }
-.pagination {
-    width: 275px;
-    align-items: flex-end;
-    display: flex;
-    justify-content: space-around;
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top:42%;
+    cursor: pointer;
+    outline: none;
+    border-top: 2px solid #707070;
+    border-right: 2px solid #707070;
+    height: 15px;
+    width: 15px;
 }
-  .pagination-circle {
+.slick-prev {
+    left: -1.5%;
+    transform: rotate(-135deg);
+}
+.slick-next {
+    right: -1.5%;
+    transform: rotate(45deg);
+}
+.slick-dots {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.slick-dots button {
+    color: transparent;
+    outline: none;
     width: 15px;
     height: 15px;
+    display: block;
     border-radius: 50%;
-    background-color: #ffffff;
+    background: #ffffff;
 }
-  .pagination-circle.target {
-    background-color: #CFCFCF;
+.slick-dots .slick-active button {
+    background: #CFCFCF;
 }
-button {
-    cursor: pointer;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    vertical-align: middle;
-    color: inherit;
-    font: inherit;
-    border: 0;
-    background: transparent;
-    padding: 0;
-    margin: 0;
-    outline: none;
-    border-radius: 0;
-}
-.arow-wrap {
-    position: absolute;
-    top: 5%;
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.arrow-btn {
-    width: 48px;
-    height: 48px;
-    background-color: #CFCFCF;
-    border-radius: 50%;
-    transition: .2s;
-}
-.arrow-left {
-    position: relative;
-    left:180px;
-}
-.arrow-left:before {
-    content: "";
-    width: 10px;
-    height: 10px;
-    border-top: 2px solid #fefefe;
-    border-left: 2px solid #fefefe;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-30%, -50%)rotate(-45deg);
-}
-.arrow-right {
-    position: relative
-}
-.arrow-right:before {
-    content: "";
-    width: 10px;
-    height: 10px;
-    border-top: 2px solid #fefefe;
-    border-left: 2px solid #fefefe;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-70%, -50%)rotate(135deg);
-}
-
-
 
 h2 {
     font-family: "Source Han Sans JP";
@@ -287,13 +244,7 @@ h2 span {
 .about {
     padding-bottom: 60px;
 }
-#about-img {
-    padding-top: 25px;
-    width: auto;
-    height: 730px;
-    border-radius: 8px;
-}
-.about_text{
+.about_text {
     max-width: auto;
     text-align: center;
     margin: 0 auto;
@@ -456,13 +407,9 @@ h4 {
     padding: 23px 0 20px 0;
 }
 .about_img {
+    padding-top: 100px;
     padding-bottom: 60px;
-}
-#fruit {
-    padding-top: 25px;
-    width: auto;
-    height: 730px;
-    border-radius: 8px;
+    position: relative;
 }
 
 /* ---gelato--- */
