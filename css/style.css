@@ -32,7 +32,7 @@ img {
     height: 88px;
     margin: 10px 69px 10px;
 }
-.main-nav {
+#main-nav {
     display: flex;
     font-family: Arial;
     font-size: 16px;
@@ -43,14 +43,14 @@ img {
     color: #333;
     list-style: none;
 }
-.main-nav li {
+#main-nav li {
     padding: 30px 55px;
     margin-left: 10px;
 }
-.main-nav a:hover {
+#main-nav a:hover {
     color: #707070;
 }
-.wrapper {
+wrapper {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 4%;
@@ -242,6 +242,7 @@ h2 span {
 }
 
 .about {
+    padding-top: 50px;
     padding-bottom: 60px;
 }
 .about_text {
@@ -388,7 +389,7 @@ h4 {
 }
 .about_container {
     margin-left: 60px;
-    padding: 48px 0 40px 0;
+    padding: 48px 0 0 0;
 }
 .about_headline {
     font-family: "Source Han Sans JP";
@@ -402,12 +403,12 @@ h4 {
     font-family: "Source Han Sans JP";
     font-size: 16px;
     letter-spacing: 0.07em;
-    line-height: 30px;
+    line-height: 40px;
     text-align: left;
-    padding: 23px 0 20px 0;
+    padding: 23px 0 0 0;
 }
 .about_img {
-    padding-top: 100px;
+    padding-top: 58px;
     padding-bottom: 60px;
     position: relative;
 }

@@ -25,3 +25,10 @@ $('.slider').slick({
   }  
   ]
 });
+
+$('#main-nav a[href^="#"]').click(function(){
+  var elmHash = $(this).attr('href');
+  var pos = $(elmHash).offset().top-100;
+  $('body,html').animate({scrollTop: pos}, 500);
+  return false;
+});
