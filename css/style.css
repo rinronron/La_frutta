@@ -1,0 +1,742 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Arial","Source Han Sans JP";
+    color: #707070;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/* ---header---*/
+.page-header {
+    background-color: #FFF;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* ↓固定の為の記述↓ */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.logo {
+    width: 88px;
+    height: 88px;
+    margin: 10px 69px 10px;
+}
+.main-nav {
+    display: flex;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #333;
+    list-style: none;
+}
+.main-nav li {
+    padding: 30px 55px;
+    margin-left: 10px;
+}
+.main-nav a:hover {
+    color: #707070;
+}
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* ---index--- */
+.top-img {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.top-img li {
+    list-style-type: none;
+}
+.back {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    background-color: #E4F4F6;
+}
+.carousel-area {
+    padding-top: 25px;
+    /* width: 3840px;*/
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+    position: absolute;
+}
+.carousel-list {
+    width: 1280px;
+    height: 730px;
+    margin-left: 300px;
+}
+.carousel-img {
+    width: 100%;
+    height: 100%;
+}
+.pagination {
+    width: 275px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+}
+  .pagination-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+  .pagination-circle.target {
+    background-color: #CFCFCF;
+}
+button {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    vertical-align: middle;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border-radius: 0;
+}
+.arow-wrap {
+    position: absolute;
+    top: 5%;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow-btn {
+    width: 48px;
+    height: 48px;
+    background-color: #CFCFCF;
+    border-radius: 50%;
+    transition: .2s;
+}
+.arrow-left {
+    position: relative;
+    left:180px;
+}
+.arrow-left:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #fefefe;
+    border-left: 2px solid #fefefe;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%)rotate(-45deg);
+}
+.arrow-right {
+    position: relative
+}
+.arrow-right:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #fefefe;
+    border-left: 2px solid #fefefe;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%)rotate(135deg);
+}
+
+
+
+h2 {
+    font-family: "Source Han Sans JP";
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    line-height: 44px;
+    position: relative;
+    padding: 20px 65px;
+    text-align: center;
+    color: #333;    
+}
+h2:before {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background: #707070;
+} 
+h2 span {
+    position: relative;
+    padding: 0 1em;
+    background: #fff;
+}
+
+/* 画像横並び */
+.flex-items{
+    padding-bottom: 60px;
+}
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+/*  最後の要素以外に余白を追加 */
+.flex-item:not(:last-child) {
+    margin-bottom: 50px;
+}
+.flex-item:nth-child(even){
+    flex-direction: row-reverse;   
+}
+.flex-item .image {
+    width: 60%;
+    padding-right: 66px;
+    padding-left: 66px;
+}
+.flex-item .image img{
+    width:  100%;
+    height: 410px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.flex-item .flex-item_text {
+    width: 58%;
+    padding: 20px 66px;
+}
+.flex-item span {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px 0;
+    line-height: 30px;
+}
+.flex-item .new_text {
+    padding-top: 50px;
+    line-height: 30px;
+}
+.new_price {
+    text-align: right;
+}
+.new_price span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#gelato {
+    position:relative;
+    margin: 0 34px 0 66px;
+}
+#gelato .link_gelato {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#coffe{
+    position:relative;
+    margin: 0 66px 0 0;
+}
+#coffe .link_coffe {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.menu-name_b {
+    margin-top: 50px;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #333;
+}
+.menu-name_s {
+    font-family: "Source Han Sans JP";
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.about {
+    padding-bottom: 60px;
+}
+#about-img {
+    padding-top: 25px;
+    width: auto;
+    height: 730px;
+    border-radius: 8px;
+}
+.about_text{
+    max-width: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 60px 30px 0 30px;
+}
+.about_text p {
+    display: inline-block;
+    text-align: left;
+}
+
+.map {
+    width: 554px;
+    height: 554px;
+}
+.shop_data{
+    margin: 100px 250px 136px 0;
+}
+h4 {
+    padding-top: 100px;
+    font-family: "Source Han Sans JP";
+    font-weight: bold; 
+    font-size: 24px;
+}
+.hurigana {
+    font-family: "Source Han Sans JP";
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+}
+.address {
+    padding-top: 59px;
+    padding-bottom: 64px;
+    font-family: "Source Han Sans JP";
+    font-size: 16px;
+    letter-spacing: 0.07em;
+    line-height: 22px;
+}
+.button {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    line-height: 18px;
+    text-align: center;
+    background: #1E6E93;
+    color: #fff;
+    border-radius: 8px;
+    padding: 18px 60px;
+}
+.button:hover {
+    opacity: 0.75;
+}
+
+/* Access */
+.access_title {
+    padding: 120px 0 45px 0;
+    font-family: "Source Han Sans JP";
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    line-height: 44px;
+    position: relative;
+    text-align: center;
+    color: #333;  
+}
+.access_title:before {
+    position: absolute;
+    top: calc(70% - 1px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background: #707070;
+} 
+.access_title span {
+    position: relative;
+    padding: 0 1em;
+    background: #fff;
+}
+.access {
+    width: auto;
+    height: 646px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subway {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 66px 0;
+}
+.subway-img {
+    width: auto;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.text {
+    width: 462px;
+    height: 147px; 
+    line-height: 22px;
+    letter-spacing: 1.12px;
+    text-align: left;
+    margin-left: 52px;
+    margin-bottom: 26px;
+}
+.map_access {
+    width: 554px;
+    height: 554px;
+}
+
+/* ---about--- */
+.about_title {
+    padding-top: 120px;
+    font-family: "Source Han Sans JP";
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    line-height: 44px;
+    position: relative;
+    text-align: center;
+    color: #333;  
+}
+.about_title:before {
+    position: absolute;
+    top: calc(80% - 1px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background: #707070;
+} 
+.about_title span {
+    position: relative;
+    padding: 0 1em;
+    background: #fff;
+}
+.about_container {
+    margin-left: 60px;
+    padding: 48px 0 40px 0;
+}
+.about_headline {
+    font-family: "Source Han Sans JP";
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #333;
+}
+.about_text2 p {
+    font-family: "Source Han Sans JP";
+    font-size: 16px;
+    letter-spacing: 0.07em;
+    line-height: 30px;
+    text-align: left;
+    padding: 23px 0 20px 0;
+}
+.about_img {
+    padding-bottom: 60px;
+}
+#fruit {
+    padding-top: 25px;
+    width: auto;
+    height: 730px;
+    border-radius: 8px;
+}
+
+/* ---gelato--- */
+.gelato_title {
+    padding-top: 120px;
+    font-family: "Source Han Sans JP";
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    line-height: 44px;
+    position: relative;
+    text-align: center;
+    color: #333;  
+}
+.gelato_title:before {
+    position: absolute;
+    top: calc(80% - 1px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background: #707070;
+} 
+.gelato_title span {
+    position: relative;
+    padding: 0 1em;
+    background: #fff;
+}
+#gelato_video {
+    text-align: center;
+    padding: 42px 0 70px 0;
+}
+video {
+    width: 100%;
+    max-width: 1148px;
+    border-radius: 8px;
+}
+
+.container_2 {
+    position: relative;
+    width: 949px;
+    height: 682px;
+    display: block;
+    margin: auto;
+}
+.title {
+    font-family: "Source Han Sans JP";
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    color: #333;
+    position:absolute;
+}
+.flavor {
+    width: 875px;
+    height: 626px;
+    border-radius: 8px;
+    background: #e4f4f6;
+    position:absolute;
+    display: flex; 
+    justify-content: space-between;
+    top: 50px;
+    left: 100px;
+}
+.flavor_all {
+    width: 800px;
+    height: 306px;
+    position:absolute;
+    display: flex; 
+  
+    padding-left: 123px;
+}
+.flavor_e {
+    font-family: "Source Han Sans JP";
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 40px;
+    padding: 17px 0 0 0px;
+}
+.flavor_j {
+    font-family: "Source Han Sans JP";
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 40px; 
+    padding: 17px 0 0 390px;   
+}
+.attention {
+    padding: 346px 0 0 123px;
+    color: #1e6e93;
+
+}
+.size_price {
+    position:absolute;
+    display: flex; 
+    justify-content: space-between;
+}
+.size { 
+    font-family: Arial;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    padding: 410px 0 22px 123px;
+}
+.size_p {
+    padding-bottom: 22px;
+}
+.size_m {
+    padding-bottom: 22px;
+}
+.size_g {
+    padding-bottom: 22px;
+}
+.price {
+    line-height: 70px;
+    padding: 385px 0 0 426px;
+}
+.price span {
+    font-weight: bold;
+}
+
+.Affogato_img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1148px;
+    border-radius: 8px;
+    padding-top: 69px;
+}
+.Affogato_container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Affogato_i {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    line-height: 22px;
+}
+.description {
+    padding-left: 77px;
+}
+
+/* ---coffe--- */
+.coffe_title {
+    padding-top: 120px;
+    font-family: "Source Han Sans JP";
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    line-height: 44px;
+    position: relative;
+    text-align: center;
+    color: #333;  
+}
+.coffe_title:before {
+    position: absolute;
+    top: calc(80% - 1px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background: #707070;
+} 
+.coffe_title span {
+    position: relative;
+    padding: 0 1em;
+    background: #fff;
+}
+#coffe_video {
+    text-align: center;
+    padding: 42px 0 70px 0;
+}
+
+.type {
+    width: 875px;
+    height: 626px;
+    border-radius: 8px;
+    background: #e4f4f6;
+    position:absolute;
+    display: flex; 
+    justify-content: space-between;
+    top: 50px;
+    left: 100px;
+}
+.type_all {
+    width: 370px;
+    height: 554px;
+    padding: 36px 0 36px 117px;
+}
+.espresso {
+    padding-bottom: 18px;
+}
+.espresso_l {
+    padding-bottom: 18px;    
+}
+.cuppuccino {
+    padding-bottom: 18px;
+}
+.caffe_latte {
+    padding-bottom: 18px;
+}
+.marocchino {
+    padding-bottom: 18px;
+}
+.caffe_m {
+    padding-bottom: 18px;
+}
+.espresso_c {
+    padding-bottom: 18px;
+}
+.caffe_m span {
+    font-size: 14px;
+}
+.espresso_c span {
+    font-size: 14px;
+}
+.price_all span {
+    font-weight: bold;
+}
+.price_1 {
+    line-height: 55px;
+    padding: 25px 193px;
+}
+.price_2 {
+    line-height: 75px;
+    padding-left: 193px;
+}
+
+.coffe_img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1148px;
+    border-radius: 8px;
+    padding-top: 69px;
+}
+.espresso_text {
+    padding: 40px 0 100px 0;
+    letter-spacing: 0.07em;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---footer--- */
+footer {
+    width: auto;
+    position: relative;
+    height: 200px;
+    background-color: #E4F4F6;
+    text-align: center;
+    color: #333;
+}
+.bottom_title {
+    padding: 23px 0;
+    font-family: "Source Han Sans JP";
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    color: #333;
+}
+.bottom_address {
+    padding-bottom: 20px;
+    font-family: "Source Han Sans JP";
+    font-size: 14px;
+    line-height: 20px;
+}
+.copy {
+    font-family: "Source Han Sans JP";
+    font-size: 12px;
+}
+a[href^="tel:"] {
+    pointer-events: none;
+}
