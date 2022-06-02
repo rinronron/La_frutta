@@ -3,7 +3,7 @@
 ![logo](https://user-images.githubusercontent.com/87799790/171312209-f0950b53-063d-4f14-8566-4f1cfeb98920.png)
 
 # プロジェクトの概要
-何を題材にしてホームページを作ろうかと思ったとき、子供のころから好きなジェラート屋をモチーフにして作りたいと思い<br>仮想ジェラート屋　La frutta のホームページを作りました。
+何を題材にしてホームページを作ろうかと思ったとき、子供のころから好きなジェラート屋をモチーフにして作りたいと思い仮想ジェラート屋　La frutta のホームページを作りました。
   
 # 使用言語、環境
 windows10で画像処理やアイコン作りをPhotoshop 2022,Illustrator 2022で行い、デザインをadobeXDで作成、Visual Studio CodeでHTMLやCSS、jqueryやJavaScriptを使い実装しました。
