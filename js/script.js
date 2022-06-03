@@ -32,3 +32,21 @@ $('#main-nav a[href^="#"]').click(function(){
   $('body,html').animate({scrollTop: pos}, 500);
   return false;
 });
+
+$(".openbtn").click(function(){
+  $(this).toggleClass('active');
+});
+
+$(".g-nav-openbtn").click(function () {//ボタンがクリックされたら
+	$(this).toggleClass('active');//ボタン自身に activeクラスを付与し
+    $("#g-nav").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
+});
+
+$("#g-nav a").click(function () {//ナビゲーションのリンクがクリックされたら
+    $(".g-nav-openbtn").removeClass('active');//ボタンの activeクラスを除去し
+    $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+});
+
+$(window).resize(function() {
+	mediaQueriesWin();// 機能編 5-1-1 ドロップダウンメニュー（上）の関数を呼ぶ
+});
