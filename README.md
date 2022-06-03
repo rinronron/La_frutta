@@ -12,7 +12,7 @@ windows10で画像処理やアイコン作りをPhotoshop 2022,Illustrator 2022�
  ![GIF 2022-06-01 12-02-33](https://user-images.githubusercontent.com/87799790/171319672-d762988d-d930-45d5-88e3-bc2add0dee20.gif)
 
  
- 
+ レスポンシブデザインがまだ出来ていないので少しずつ更新しています。
  
  <h1 align="center">Hi 👋, I'm Tokiko Takahashi</h1>
 <h3 align="center">A passionate frontend developer from Japan</h3>
