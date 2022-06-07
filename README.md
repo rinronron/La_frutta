@@ -5,25 +5,18 @@
 ![GIF 2022-06-01 12-02-33](https://user-images.githubusercontent.com/87799790/171319672-d762988d-d930-45d5-88e3-bc2add0dee20.gif)
 
 # プロジェクトの概要
-何を題材にしてホームページを作ろうかと思ったとき、子供のころから好きなジェラート屋をモチーフにして作りたいと思い仮想ジェラート屋　La frutta のホームページを作りました。<br>
+何を題材にしてホームページを作ろうかと思ったとき、子供のころから好きなジェラート屋をモチーフにして作りたいと思い仮想ジェラート屋　La frutta のホームページを作りました。
+ジェラート屋のホームページなのでターゲットを女性や子供に設定し興味を持ってもらえるよう意識し作成しました。
   
 # 使用言語、環境
-windows10で画像処理やアイコン作りをPhotoshop 2022,Illustrator 2022で行い、デザインをadobeXDで作成、Visual Studio CodeでHTMLやCSS、jqueryやJavaScriptを使い実装しました。<br>
+windows10で画像処理やアイコン作りをPhotoshop 2022,Illustrator 2022で行い、デザインをadobeXDで作成、Visual Studio CodeでHTMLやCSS、jqueryやJavaScriptを使い実装しました。
 
 # 今後追加したい機能など
-レスポンシブデザインがまだ出来ていないので少しずつ更新しています。<br>
+レスポンシブデザインがまだ出来ていないので少しずつ更新しています。
 
+# ポートフォリオWebページのURL
+[https://matchbox.work/portfolio/P38986307](https://matchbox.work/portfolio/P38986307)
 
-<h1 align="center">Hi 👋, I'm Tokiko Takahashi</h1>
-<h3 align="center">A passionate frontend developer from Japan</h3>
-
-- 👨‍💻 All of my projects are available at [https://matchbox.work/portfolio/P38986307](https://matchbox.work/portfolio/P38986307)
-
-- 📫 How to reach me **rintoco@hotmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
