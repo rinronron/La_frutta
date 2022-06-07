@@ -1,20 +1,21 @@
-# La frutta
+# ホームページの名前
+La frutta
 
 ![logo](https://user-images.githubusercontent.com/87799790/171312209-f0950b53-063d-4f14-8566-4f1cfeb98920.png)
+
+![GIF 2022-06-01 12-02-33](https://user-images.githubusercontent.com/87799790/171319672-d762988d-d930-45d5-88e3-bc2add0dee20.gif)
 
 # プロジェクトの概要
 何を題材にしてホームページを作ろうかと思ったとき、子供のころから好きなジェラート屋をモチーフにして作りたいと思い仮想ジェラート屋　La frutta のホームページを作りました。
   
 # 使用言語、環境
 windows10で画像処理やアイコン作りをPhotoshop 2022,Illustrator 2022で行い、デザインをadobeXDで作成、Visual Studio CodeでHTMLやCSS、jqueryやJavaScriptを使い実装しました。
-  
- 
- ![GIF 2022-06-01 12-02-33](https://user-images.githubusercontent.com/87799790/171319672-d762988d-d930-45d5-88e3-bc2add0dee20.gif)
 
- 
- レスポンシブデザインがまだ出来ていないので少しずつ更新しています。
- 
- <h1 align="center">Hi 👋, I'm Tokiko Takahashi</h1>
+# 今後追加したい機能など
+レスポンシブデザインがまだ出来ていないので少しずつ更新しています。
+
+
+<h1 align="center">Hi 👋, I'm Tokiko Takahashi</h1>
 <h3 align="center">A passionate frontend developer from Japan</h3>
 
 - 👨‍💻 All of my projects are available at [https://matchbox.work/portfolio/P38986307](https://matchbox.work/portfolio/P38986307)
