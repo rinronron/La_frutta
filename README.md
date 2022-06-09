@@ -8,7 +8,8 @@
 冷たいジェラートを意識してベースカラーを水色にし、爽やかな雰囲気と可愛らしさを表現しました。　　
 
 ジェラート屋のホームページなのでターゲットを女性や子供に設定し興味を持ってもらえるよう意識し作成しました。　　
-  
+
+
 # 使用言語、環境
 - Photoshop 2022 <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="30" height="30"/> </a> 
@@ -24,12 +25,15 @@
 - JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="30"/> </a>　　
 
+
 # ポートフォリオWebページのURL
 [https://matchbox.work/portfolio/P38986307](https://matchbox.work/portfolio/P38986307)　　
+
 
 # XDでデザインしたもの
 - レスポンシブデザイン [https://xd.adobe.com/view/1aa95f00-4111-45a2-8ae8-9070e8bb1239-4ffa/](https://xd.adobe.com/view/1aa95f00-4111-45a2-8ae8-9070e8bb1239-4ffa/)
 - デスクトップデザイン [https://xd.adobe.com/view/e0277127-e51e-49cd-bc86-2797e6e335d0-b574/](https://xd.adobe.com/view/e0277127-e51e-49cd-bc86-2797e6e335d0-b574/)　　
+
 
 # 今後追加したい機能など
 レスポンシブデザインがまだ出来ていないので少しずつ更新しています。
