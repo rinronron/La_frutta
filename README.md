@@ -5,11 +5,11 @@
 ![GIF 2022-06-01 12-02-33](https://user-images.githubusercontent.com/87799790/171319672-d762988d-d930-45d5-88e3-bc2add0dee20.gif)
 
 # プロジェクトの概要
-架空のジェラート屋 La frutta のホームページです。  
+今回のホームページはターゲットを女性や子供に設定し  
 
-冷たいジェラートを意識してベースカラーを水色にし、爽やかな雰囲気と可愛らしさを表現しました。　　
+興味を持ってもらえるよう「かわいい」を意識したデザインにしアニメーションをつけ  
 
-ジェラート屋のホームページなのでターゲットを女性や子供に設定し興味を持ってもらえるよう意識し作成しました。　　
+架空のジェラート屋 La frutta のホームページを作成しました。  
 
 
 # 使用言語、環境
@@ -32,7 +32,7 @@
 [https://matchbox.work/portfolio/P38986307](https://matchbox.work/portfolio/P38986307)　　
 
 
-# XDでデザインしたもの
+# XDでデザインしたワイヤーフレーム
 - レスポンシブデザイン [https://xd.adobe.com/view/1aa95f00-4111-45a2-8ae8-9070e8bb1239-4ffa/](https://xd.adobe.com/view/1aa95f00-4111-45a2-8ae8-9070e8bb1239-4ffa/)
 - デスクトップデザイン [https://xd.adobe.com/view/e0277127-e51e-49cd-bc86-2797e6e335d0-b574/](https://xd.adobe.com/view/e0277127-e51e-49cd-bc86-2797e6e335d0-b574/)　　
 
