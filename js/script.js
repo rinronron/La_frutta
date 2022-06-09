@@ -35,10 +35,10 @@ $('#main-nav a[href^="#"]').click(function(){
 
 $(".openbtn").click(function(){
   $(this).toggleClass('active');
-  $("#g-navi").toggleClass('panelactive');
+  $("#g-nav").toggleClass('panelactive');
 });
 
-$("#g-navi a").click(function(){
+$("#g-nav a").click(function(){
   $(".openbtn").removeClass('active');
   $("#g-nav").removeClass('panelactive');
 });
