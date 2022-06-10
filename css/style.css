@@ -308,13 +308,14 @@ h2 span {
 }
 .new_price {
     text-align: right;
+    padding-top: 16px;
 }
 .new_price span {
     font-weight: bold;
     font-size: 16px;
 }
 @media screen and (max-width: 960px) {
-    .flex-item{
+    .flex-item {
       flex-direction: column;
       align-items: center;
     }
@@ -334,9 +335,15 @@ h2 span {
     }
 }
 
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 66px 0 66px;
+}
 #gelato {
     position:relative;
-    margin: 0 34px 0 66px;
+    width: 100%;
+    max-width: 800px;
 }
 #gelato .link_gelato {
     display: block;
@@ -348,7 +355,8 @@ h2 span {
 }
 #coffe{
     position:relative;
-    margin: 0 66px 0 0;
+    width: 100%;
+    max-width: 800px;
 }
 #coffe .link_coffe {
     display: block;
@@ -374,6 +382,16 @@ h2 span {
     letter-spacing: 0.2em;
     text-align: center;
 }
+@media screen and (max-width: 960px) {
+    .menu-items {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 30px;
+    }
+    .name_big {
+        margin-top: 10px;
+    }
+}  
 
 .about {
     padding-top: 50px;
@@ -513,7 +531,7 @@ h4 {
     .subway-img {
       margin-left: 40px;
     }
-  }
+}
 .text {
     width: auto;
     height: auto; 
@@ -663,26 +681,19 @@ video {
 .attention {
     padding: 346px 0 0 123px;
     color: #1e6e93;
-
 }
 .size_price {
     position:absolute;
     display: flex; 
     justify-content: space-between;
 }
-.size { 
+.sizes { 
     font-family: Arial;
     font-size: 18px;
     letter-spacing: 0.1em;
     padding: 410px 0 22px 123px;
 }
-.size_p {
-    padding-bottom: 22px;
-}
-.size_m {
-    padding-bottom: 22px;
-}
-.size_g {
+.size {
     padding-bottom: 22px;
 }
 .price {
@@ -765,19 +776,7 @@ video {
     height: 554px;
     padding: 36px 0 36px 117px;
 }
-.espresso {
-    padding-bottom: 18px;
-}
-.espresso_l {
-    padding-bottom: 18px;    
-}
-.cuppuccino {
-    padding-bottom: 18px;
-}
-.caffe_latte {
-    padding-bottom: 18px;
-}
-.marocchino {
+.coffe {
     padding-bottom: 18px;
 }
 .caffe_m {
@@ -802,6 +801,11 @@ video {
 .price_2 {
     line-height: 75px;
     padding-left: 193px;
+}
+@media screen and (max-width: 960px) {
+    .type {
+      
+    }
 }
 
 .coffe_img {
