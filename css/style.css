@@ -802,11 +802,7 @@ video {
     line-height: 75px;
     padding-left: 193px;
 }
-@media screen and (max-width: 960px) {
-    .type {
-      
-    }
-}
+
 
 .coffe_img {
     display: block;
