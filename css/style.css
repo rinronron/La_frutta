@@ -271,18 +271,15 @@ h2 span {
 .flex-items{
     padding-bottom: 60px;
 }
-@media screen and (min-width:600px){
-    .flex-item {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 50px;
-      }
+.flex-item{
+    display: flex;
+    justify-content: space-between;
 }
 /*  最後の要素以外に余白を追加 */
 .flex-item:not(:last-child) {
     margin-bottom: 50px;
 }
-.flex-item:nth-child(even){
+.flex-item:nth-child(even) {
     flex-direction: row-reverse;   
 }
 .flex-item .image {
@@ -297,7 +294,7 @@ h2 span {
     object-fit: cover;
 }
 .flex-item .flex-item_text {
-    width: 58%;
+   
     padding: 20px 66px;
 }
 .flex-item span {
@@ -316,6 +313,26 @@ h2 span {
 .new_price span {
     font-weight: bold;
     font-size: 16px;
+}
+@media screen and (max-width: 960px) {
+    .flex-item{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .flex-item:nth-child(even) {
+      flex-direction: column;
+    }
+  
+    .flex-item .image {
+      width: 100%;
+      height: 250px;
+      padding-bottom: 30px;
+    }
+  
+    .flex-item_text {
+      width: 100%;
+    }
 }
 
 #gelato {
@@ -363,6 +380,11 @@ h2 span {
     padding-top: 50px;
     padding-bottom: 60px;
 }
+@media screen and (max-width: 960px) {
+    .about {
+        padding-top: 10px;
+    }
+  }
 .about_text {
     max-width: auto;
     text-align: center;
@@ -394,12 +416,17 @@ h2 span {
     .shop_data {
       margin: 0 0 38px 40px;
     }
-  }
+}
 h4 {
     padding-top: 100px;
     font-family: "Source Han Sans JP";
     font-weight: bold; 
     font-size: 24px;
+}
+@media screen and (max-width: 960px) {
+    h4 {
+        padding-top: 10px;
+    }
 }
 .hurigana {
     font-family: "Source Han Sans JP";
