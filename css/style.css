@@ -43,11 +43,11 @@ img {
 }
 @media screen and (max-width:960px){
     #header h1{
-      position: absolute;
+        position: absolute;
         top:22px;
         left:20px;
         padding: 0;
-      }
+    }
 }
 .logo {
     width: 88px;
@@ -103,14 +103,16 @@ img {
     } 
 }
 /* ---ナビゲーションの為のcss--- */
-#main-nav {
+#g-nav ul {
     display: flex;
+    justify-content: space-around;
+}
+#main-nav {
     font-family: Arial;
     font-size: 16px;
     font-weight: bold;
     line-height: 50px;
     letter-spacing: 1.6px;
-    justify-content: space-around;
     color: #333;
     list-style: none;
 }
@@ -126,11 +128,16 @@ nav a:hover {
         position: fixed;
         z-index: 999;
         width: 50%;
-        height: 50vh;
+        height: 100vh;
         overflow: auto;
         -webkit-overflow-scrolling: touch;
     }
     #g-nav ul {
+        /* メニューを縦に */
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.6s;
         position: absolute;
         z-index: 999;
         top: 50%;
@@ -138,7 +145,11 @@ nav a:hover {
         transform: translate(-50%,-50%);
     }
     #g-nav {
+        /* メニューを縦に */
         position: fixed;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.6s;
         z-index: 999;
         top: 0;
         right: -120%;
@@ -146,13 +157,8 @@ nav a:hover {
         height: 100vh;
         margin-left: auto;
         background: #E4F4F6;
-        /* メニューを縦に */
-        position: fixed;
-        flex-direction: column;
-        align-items: center;
-        transition: all 0.6s;
     }
-    #main-nav li {
+    #main-nav li { 
         width: 100%;
         height: 100%;
         /* メニューテキスト位置をリスト内中心に */
@@ -164,8 +170,6 @@ nav a:hover {
         right: 0;
     }
 }
-
-
 
 /* ---index--- */
 .top-img {
