@@ -319,17 +319,14 @@ h2 span {
       flex-direction: column;
       align-items: center;
     }
-  
     .flex-item:nth-child(even) {
       flex-direction: column;
     }
-  
     .flex-item .image {
       width: 100%;
       height: 250px;
       padding-bottom: 30px;
     }
-  
     .flex-item_text {
       width: 100%;
     }
@@ -401,7 +398,7 @@ h2 span {
     .about {
         padding-top: 10px;
     }
-  }
+}
 .about_text {
     max-width: auto;
     text-align: center;
@@ -661,7 +658,6 @@ video {
     height: 306px;
     position:absolute;
     display: flex; 
-  
     padding-left: 123px;
 }
 .flavor_e {
@@ -776,13 +772,7 @@ video {
     height: 554px;
     padding: 36px 0 36px 117px;
 }
-.coffe {
-    padding-bottom: 18px;
-}
-.caffe_m {
-    padding-bottom: 18px;
-}
-.espresso_c {
+.type_all p {
     padding-bottom: 18px;
 }
 .caffe_m span {
@@ -802,7 +792,6 @@ video {
     line-height: 75px;
     padding-left: 193px;
 }
-
 
 .coffe_img {
     display: block;
