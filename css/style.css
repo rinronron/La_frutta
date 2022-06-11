@@ -660,12 +660,23 @@ video {
     top: 50px;
     left: 100px;
 }
+@media screen and (max-width: 960px) {
+    .flavor {
+        left: 40px;
+        width: 40%;
+    }
+}
 .flavor_all {
     width: 800px;
     height: 306px;
     position:absolute;
     display: flex; 
     padding-left: 123px;
+}
+@media screen and (max-width: 960px) {
+    .flavor_all {
+        padding-left: 15%;
+    }
 }
 .flavor_e {
     font-family: "Source Han Sans JP";
@@ -681,12 +692,28 @@ video {
     line-height: 40px; 
     padding: 17px 0 0 390px;   
 }
+@media screen and (max-width: 960px) {
+    .flavor_e {
+        font-size: 16px;
+    }
+    .flavor_j {
+        font-size: 16px;
+        padding-left: 10%;
+    }
+}
 .attention {
     padding: 346px 0 0 123px;
     color: #1e6e93;
 }
+@media screen and (max-width: 960px) {
+    .attention {
+        padding-left: 8%;
+        font-size: 14px;
+    }
+}
 .size_price {
-    position:absolute;
+    width: 685px;
+    position: absolute;
     display: flex; 
     justify-content: space-between;
 }
@@ -696,15 +723,27 @@ video {
     letter-spacing: 0.1em;
     padding: 410px 0 22px 123px;
 }
+
 .size {
     padding-bottom: 22px;
 }
 .price {
     line-height: 70px;
-    padding: 385px 0 0 426px;
+    padding-top: 385px;
 }
 .price span {
     font-weight: bold;
+}
+@media screen and (max-width: 960px) {
+    .size_price::after {
+        display: block;
+        content:"";
+        width: 40%;
+    }
+    .sizes {
+        padding-left: 8%;
+        font-size: 16px;
+    }
 }
 
 .Affogato_img {
