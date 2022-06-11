@@ -180,6 +180,7 @@ nav a:hover {
 .top-img li {
     list-style-type: none;
 }
+
 .back {
     display: flex;
     width: 100%;
@@ -424,7 +425,7 @@ h2 span {
     width: auto;
 }
 .shop_data {
-    margin: 0 250px 136px 0;
+    margin: 0 250px 136px 66px;
 }
 @media screen and (max-width: 960px) {
     .shop_data {
@@ -507,12 +508,18 @@ h4 {
     padding: 0 1em;
     background: #fff;
 }
-.access {
+.access img {
     width: auto;
     height: 646px;
     border-radius: 8px;
     display: block;
     margin: auto;
+}
+@media screen and (max-width: 960px) {
+    .access img {
+        height: 50%;
+        padding-bottom: 30px;
+    }
 }
 .subway {
     display: flex;
