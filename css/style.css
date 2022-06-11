@@ -743,9 +743,8 @@ video {
 }
 @media screen and (max-width: 960px) {
     .size_price {
-        width: auto;
+        width: 100%;
     }
-
     .sizes {
         padding-left: 8%;
         font-size: 16px;
