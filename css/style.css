@@ -641,6 +641,12 @@ video {
     display: block;
     margin: auto;
 }
+@media screen and (max-width: 960px) {
+    .container_2 {
+        width: auto;
+
+    }
+}
 .title {
     font-family: "Source Han Sans JP";
     font-weight: bold;
@@ -662,8 +668,8 @@ video {
 }
 @media screen and (max-width: 960px) {
     .flavor {
-        left: 40px;
-        width: 40%;
+        left: 30px;
+        width: auto;
     }
 }
 .flavor_all {
@@ -675,6 +681,7 @@ video {
 }
 @media screen and (max-width: 960px) {
     .flavor_all {
+        width: 100%;
         padding-left: 15%;
     }
 }
@@ -735,11 +742,10 @@ video {
     font-weight: bold;
 }
 @media screen and (max-width: 960px) {
-    .size_price::after {
-        display: block;
-        content:"";
-        width: 40%;
+    .size_price {
+        width: auto;
     }
+
     .sizes {
         padding-left: 8%;
         font-size: 16px;
