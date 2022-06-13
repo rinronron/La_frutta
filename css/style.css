@@ -177,10 +177,10 @@ nav a:hover {
     padding-bottom: 60px;
     position: relative;
 }
+
 .top-img li {
     list-style-type: none;
 }
-
 .back {
     display: flex;
     width: 100%;
@@ -198,6 +198,24 @@ nav a:hover {
     padding-top: 20px;
     margin: 0 auto;
     aspect-ratio: 5/3;
+}
+@media screen and (max-width:480px){
+    .back {
+        height: auto;
+    }
+    .slider img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:960px){
+    .back {
+        height: auto;
+    }
+    .slider img {
+        width: 100%;
+        height: auto;
+    }
 }
 .slider slic-slide {
     margin: 0 10px;
