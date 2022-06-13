@@ -4,6 +4,9 @@
 
 ![GIF 2022-06-01 12-02-33](https://user-images.githubusercontent.com/87799790/171319672-d762988d-d930-45d5-88e3-bc2add0dee20.gif)
 
+![respon-min](https://user-images.githubusercontent.com/87799790/173310790-c5ee87dd-0864-4cb7-8d7a-4f2fedd5a60d.gif)　　
+
+
 # プロジェクトの概要
 今回のホームページはターゲットを女性や子供に設定し  
 
