@@ -1,4 +1,4 @@
-# ホームページの名前 : La frutta
+# La frutta
 
 ![logo](https://user-images.githubusercontent.com/87799790/171312209-f0950b53-063d-4f14-8566-4f1cfeb98920.png)
 
@@ -12,12 +12,15 @@
 
 架空のジェラート屋 La frutta のホームページを作成しました。  
 
-見る人にどれが一押しなのかすぐにわかるようにカルーセルスライダーを使用し
+# ポートフォリオWebページのURL
+[https://matchbox.work/portfolio/P38986307](https://matchbox.work/portfolio/P38986307)　
 
 ![respon-min](https://user-images.githubusercontent.com/87799790/173310790-c5ee87dd-0864-4cb7-8d7a-4f2fedd5a60d.gif)　　
 
-# ポートフォリオWebページのURL
-[https://matchbox.work/portfolio/P38986307](https://matchbox.work/portfolio/P38986307)　
+# ポイント
+見る人にどれが一押しなのかすぐにわかるようにカルーセルスライダーを使用し
+
+
 
 # 使用言語、環境
 - Photoshop 2022 <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> 
