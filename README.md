@@ -14,6 +14,7 @@
 
 架空のジェラート屋 La frutta のホームページを作成しました。  
 
+見る人にどれが一押しなのかすぐにわかるようにカルーセルスライダーを使用し
 
 # 使用言語、環境
 - Photoshop 2022 <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> 
