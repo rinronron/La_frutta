@@ -15,11 +15,11 @@
 # ポートフォリオWebページのURL
 [https://matchbox.work/portfolio/P38986307](https://matchbox.work/portfolio/P38986307)　
 
-![respon-min](https://user-images.githubusercontent.com/87799790/173310790-c5ee87dd-0864-4cb7-8d7a-4f2fedd5a60d.gif)　　
 
 # ポイント
 見る人にどれが一押しなのかすぐにわかるようにカルーセルスライダーを使用し
 
+![respon-min](https://user-images.githubusercontent.com/87799790/173310790-c5ee87dd-0864-4cb7-8d7a-4f2fedd5a60d.gif)　
 
 
 # 使用言語、環境
