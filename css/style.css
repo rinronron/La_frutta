@@ -927,10 +927,24 @@ video {
     .price_all {
         width: 100%;
     }
+    .price_1 {
+        padding: 25px 60px;
+    }
+    .price_2 {
+        line-height: 75px;
+        padding-left: 60px;
+    }
 }
 @media screen and (max-width: 960px) {
     .price_all {
         width: 100%;
+    }
+    .price_1 {
+        padding: 25px 60px;
+    }
+    .price_2 {
+        line-height: 75px;
+        padding-left: 60px;
     }
 }
 
