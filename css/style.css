@@ -911,7 +911,17 @@ video {
 .espresso_c span {
     font-size: 14px;
 }
-
+@media screen and (max-width: 960px) {
+    .type_all p {
+        font-size: 15px;
+    }
+    .caffe_m span{
+        font-size: 12px;
+    }
+    .espresso_c span {
+        font-size: 12px;
+    }
+}
 .price_all span {
     font-weight: bold;
 }
@@ -923,24 +933,12 @@ video {
     line-height: 75px;
     padding-left: 193px;
 }
-@media screen and (max-width: 480px) {
-    .price_all {
-        width: 100%;
-    }
-    .price_1 {
-        padding: 25px 60px;
-    }
-    .price_2 {
-        line-height: 75px;
-        padding-left: 60px;
-    }
-}
 @media screen and (max-width: 960px) {
     .price_all {
         width: 100%;
     }
     .price_1 {
-        padding: 25px 60px;
+        padding: 25px 0 0 60px;
     }
     .price_2 {
         line-height: 75px;
