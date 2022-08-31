@@ -116,14 +116,13 @@ img {
     color: #333;
     list-style: none;
 }
-nav li {
+#main-nav li {
     text-align: center;
-    
+    margin: 2rem 3rem;
 }
 
-nav a {
+#main-nav li a {
     display: block;
-    margin: 2rem;
 }
 
 nav a:hover {
